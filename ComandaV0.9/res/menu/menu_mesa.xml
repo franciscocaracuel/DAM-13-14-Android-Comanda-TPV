@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_cerrarPedido"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="@string/action_cerrar_pedido"/>
+        
+    <item
+        android:id="@+id/action_insertarCarta"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/titulo_insertar_carta"/>
+
+</menu>

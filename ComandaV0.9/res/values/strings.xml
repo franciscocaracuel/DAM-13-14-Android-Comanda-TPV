@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Comanda v0.9</string>
+    <string name="menu_refresh">Actualizar</string>
+    <string name="action_cerrar_pedido">Cerrar</string>
+    <string name="action_reabrir_pedido">Reabrir</string>
+    
+    <string name="mesa">Mesa</string>
+    <string name="title_activity_mesa">Pedido</string>
+    <string name="editar">Editar</string>
+    <string name="borrar">Borrar</string>
+    
+    <string name="dialog_borrar">¿Desea borrar la mesa?</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancelar</string>
+    
+    <string name="hint_editarmesa">Nombre de la mesa</string>
+    <string name="hint_insertar_carta">Nombre de la carta</string>
+    <string name="hint_insertar_carta_precio">Precio de la carta</string>
+    
+    <string name="titulo_editamesa">Editar mesa</string>    
+    <string name="titulo_insertar_carta">Insertar carta</string>
+    <string name="titulo_confirmacion_cerrar">¿Está seguro que desea finalizar el pedido actual?</string>    
+    <string name="titulo_confirmacion_reabrir">¿Está seguro que desea reabrir el pedido anterior?</string>
+    <string name="mensaje_reabrir">El pedido actual se perderá</string>
+    <string name="dialogo_mensaje_si">Si</string>
+    <string name="dialogo_mensaje_cancelar">Cancelar</string>
+    
+    <string name="guardar">Guardar</string>
+    <string name="title_activity_carta">CartaActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="euro">€</string>
+    
+    <string name="info_no_reabrir">No existen más pedidos, se creará uno nuevo</string>
+    
+    <string name="cero">0</string>
+    
+    <string name="pedido_numero">Pedido: </string>
+    <string name="mesa_nombre">Mesa: </string>
+    <string name="hora_apertura">Hora de apertura: </string>
+    
+    <string name="crear_mesa">Debe crear al menos una mesa para realizar algún pedido.\nBotón "Menú"/Insertar</string>    
+    <string name="mesas_actualizadas">Se han actualizado las mesas</string>
+    <string name="mesas_actualizadas_dif_1">Última actualización hace </string>
+    <string name="mesas_actualizadas_dif_2"> dias</string>
+    
+    <string name="cartas_actualizadas">Se han actualizado las cartas</string>
+    
+    <string name="error_conexion">Hay un error de conexion con el servidor</string>
+        
+    <string name="titulo_confirmacion_borrar_detalle">Eliminar elemento</string>    
+    <string name="mensaje_borrar_detalle">¿Desea eleminar el elemento seleccionado?</string>
+        
+    <string name="titulo_dialog_cartas">Elige un elemento:</string>
+    
+</resources>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_anadir_carta"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/titulo_insertar_carta"/>
+
+</menu>
