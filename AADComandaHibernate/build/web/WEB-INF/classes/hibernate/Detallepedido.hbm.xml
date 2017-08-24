@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 28-ene-2014 18:10:38 by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="hibernate.Detallepedido" table="detallepedido" catalog="comanda">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="carta" class="hibernate.Carta" fetch="select">
+            <column name="idcarta" not-null="true" />
+        </many-to-one>
+        <many-to-one name="pedido" class="hibernate.Pedido" fetch="select">
+            <column name="idpedido" not-null="true" />
+        </many-to-one>
+        <property name="cantidad" type="java.lang.Integer">
+            <column name="cantidad" />
+        </property>
+        <property name="precio" type="big_decimal">
+            <column name="precio" precision="7" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
